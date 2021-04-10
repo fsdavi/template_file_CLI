@@ -2,8 +2,10 @@ import tkinter as tk
 from tkinter import filedialog
 import os
 
+# File that u want to copy
 FILE_EXAMPLE = "file_example"
-FILE_EXAMPLE_EXT = "tsx"
+# File extension
+FILE_EXAMPLE_EXT = "txt"
 FULL_EXAMPLE_FILE = FILE_EXAMPLE + "." + FILE_EXAMPLE_EXT
 ASCII_ART_HEADER = '''
  ----------------------------------------
